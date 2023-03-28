@@ -1,0 +1,37 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1679797994,
+        "narHash": "sha256-Kr/O/UlfqAtoFmkZeAaphsxogeaN8a/IugBApFzPfpk=",
+        "path": "/nix/store/chj79hz14v92rmdhpgw8pr21gw50pkwk-source",
+        "rev": "5f9d1bb572e08ec432ae46c78581919d837a90f6",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "paymo-widget-appimage": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-9aFvNzeqX7iniannP3T3v208YyEFy18wekhTWLJDiPU=",
+        "type": "file",
+        "url": "https://s3.amazonaws.com/widget.paymoapp.com/paymo-widget-7.2.8-x86_64.AppImage"
+      },
+      "original": {
+        "type": "file",
+        "url": "https://s3.amazonaws.com/widget.paymoapp.com/paymo-widget-7.2.8-x86_64.AppImage"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "paymo-widget-appimage": "paymo-widget-appimage"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
